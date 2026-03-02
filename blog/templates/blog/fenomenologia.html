@@ -1,0 +1,69 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block title %} Fenomenologia {% endblock %}
+
+{% block content %}
+
+<div class="container-fluid px-3 mt-4">
+    <div class="row">
+
+        <!-- TEXTO (2/3) -->
+        <div class="col-md-8">
+            <div class="border border-dark p-5">
+
+                <h1 class="mb-4 display-5">Fenomenologia na Psicologia</h1>
+
+                <p class="fs-5">
+                    A fenomenologia na psicologia é uma forma de compreender o ser humano 
+                    a partir da sua própria experiência. Em vez de rotular comportamentos 
+                    ou buscar explicações prontas, essa abordagem procura entender como 
+                    cada pessoa percebe e vive o mundo.
+                </p>
+
+                <p class="fs-5">
+                    Isso significa olhar para o que a pessoa sente, pensa e experimenta 
+                    no seu dia a dia, valorizando sua história e sua maneira única de 
+                    enxergar a realidade.
+                </p>
+
+                <p class="fs-5">
+                    Essa perspectiva tem origem nos estudos de Edmund Husserl, 
+                    que propôs a ideia de “voltar às coisas mesmas”, ou seja, observar 
+                    a experiência como ela realmente aparece, antes de julgamentos 
+                    ou interpretações.
+                </p>
+
+                <p class="fs-5">
+                    Mais tarde, Martin Heidegger destacou que o ser humano está sempre 
+                    inserido no mundo, vivendo situações concretas, relações e desafios. 
+                    Não somos separados da nossa realidade — fazemos parte dela.
+                </p>
+
+                <p class="fs-5">
+                    Na prática clínica, o psicólogo busca compreender o sentido que 
+                    a experiência tem para o paciente. O foco não está apenas no sintoma, 
+                    mas no significado da vivência e na construção de novas formas de 
+                    entender a própria existência.
+                </p>
+
+                <p class="fs-5">
+                    Assim, a fenomenologia é mais do que uma teoria: é uma atitude de 
+                    escuta atenta e respeito à singularidade de cada pessoa.
+                </p>
+
+            </div>
+        </div>
+
+        <!-- IMAGEM (1/3) -->
+        <div class="col-md-4">
+            <img src="{% static 'images/filosofia.jpg' %}" 
+                 class="img-fluid w-100 border border-dark"
+                 style="object-fit: cover;"
+                 alt="Fenomenologia">
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
